@@ -1,9 +1,13 @@
 import { Fragment } from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Navbar from './Components/navbar/Navbar';
 
 function App() {
   return (
    <Fragment>
-     <h1>Project management tool</h1>
+     <BrowserRouter>
+      <Navbar />
+     </BrowserRouter>
    </Fragment>
   );
 }
