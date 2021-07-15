@@ -1,0 +1,35 @@
+@import '../../index.scss';
+
+header {
+	background-color: $header-bg;
+
+	.headerWrapper {
+		padding: 30px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		h1 {
+			a {
+				font-size: 34px;
+			}
+		}
+
+		a {
+			color: $white;
+			font-size: 24px;
+
+			&:hover { color: $font-hover; }
+		}
+
+		.navList {
+			flex-basis: 80%;
+			text-align: right;
+
+			li {
+
+				&:not(:last-child) { margin-right: 2%; }
+			 }
+		 }
+	}
+}

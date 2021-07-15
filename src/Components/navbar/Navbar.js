@@ -10,7 +10,7 @@ const Navbar = () => {
 
 	return (
 		<header>
-			<div className="wrapper">
+			<div className={`wrapper ${classes.headerWrapper}`}>
 				<h1><Link to="/" >Project tool</Link></h1>
 				{links}
 			</div>

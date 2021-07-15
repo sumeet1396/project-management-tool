@@ -4,11 +4,11 @@ import classes from './Navbar.module.scss'
 
 const SignedInLink = () => {
 	return (
-		<ul>
+		<ul className={classes.navList}>
 			<li><NavLink to="/">New Project</NavLink></li>
 			<li><NavLink to="/">Log Out</NavLink></li>
 			<li><NavLink to="/">SR</NavLink></li>
-    </ul>
+    	</ul>
 	);
 }
 

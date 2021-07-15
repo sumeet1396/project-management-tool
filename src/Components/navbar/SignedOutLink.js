@@ -4,10 +4,10 @@ import classes from './Navbar.module.scss'
 
 const SignedOutLink = () => {
 	return (
-		<ul>
+		<ul className={classes.navList}>
 			<li><NavLink to="/">Sign up</NavLink></li>
 			<li><NavLink to="/">Login</NavLink></li>
-    </ul>
+    	</ul>
 	);
 }
 
